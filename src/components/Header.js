@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
-import logo from "../assets/images/spacex_logo.svg";
+import starlinkLogo  from '../assets/images/spacex_logo.svg';
 
 class Header extends Component {
     render() {
         return (
             <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
+                <img src={starlinkLogo} className="App-logo" alt="logo" />
                 <p className="title">
-                    Starlink Tracker
+                    StarLink Tracker
                 </p>
             </header>
         );
